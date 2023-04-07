@@ -3,12 +3,12 @@ const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/
  let data2 = d3.json(url).then(function(data){
     console.log(data);
     
-    function init(){
+   
     var selector = d3.select("#selDataset");
     var sampleName = data.names;
     sampleName.forEach((sample)=> {
         selector.append("option").text(sample).property("value",sample);
-    })
+ 
 
     var firstSample = sampleName[0];
     Charts(firstSample);
