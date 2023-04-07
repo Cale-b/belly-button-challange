@@ -13,7 +13,7 @@ const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/
     var firstSample = sampleName[0];
     Charts(firstSample);
     Metadata(firstSample);
-    });
+
      
 function Charts(firstSample){
     
