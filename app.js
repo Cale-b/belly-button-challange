@@ -81,14 +81,8 @@ function Metadata(firstSample){
 
     
 
-init();
-});
 
-function optionChanged(newSample){
-    var newSample = d3.select("#selDataset").value;
-   Charts(newSample);
-   Metadata(newSample)
-};
+});
 
 
 
